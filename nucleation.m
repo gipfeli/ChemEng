@@ -35,20 +35,20 @@ DeltaGa3 = ka .* L.^2 .*gamma;
 DeltaG3 = DeltaGV3 + DeltaGa3;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PLOT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% figure;
-% plot(L,DeltaG1,'k',L,DeltaGa1,'r',L,DeltaGV1,'b');
-% xlabel('Length');
-% ylabel('Delta G');
-% 
-% figure;
-% plot(L,DeltaG2,'k',L,DeltaGa2,'r',L,DeltaGV2,'b');
-% xlabel('Length');
-% ylabel('Delta G');
-% 
-% figure;
-% plot(L,DeltaG3,'k',L,DeltaGa3,'r',L,DeltaGV3,'b');
-% xlabel('Length');
-% ylabel('Delta G');
+figure;
+plot(L,DeltaG1,'k',L,DeltaGa1,'r',L,DeltaGV1,'b');
+xlabel('Length');
+ylabel('Delta G');
+
+figure;
+plot(L,DeltaG2,'k',L,DeltaGa2,'r',L,DeltaGV2,'b');
+xlabel('Length');
+ylabel('Delta G');
+
+figure;
+plot(L,DeltaG3,'k',L,DeltaGa3,'r',L,DeltaGV3,'b');
+xlabel('Length');
+ylabel('Delta G');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Critical Size %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 S = [0.5 1.05 1.5 2 3]
